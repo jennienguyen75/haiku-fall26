@@ -1,5 +1,30 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 1rem;
+	background-color: black;
+	background-image: url(../img/flames\ .gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: whitesmoke;
+	font-size: 5rem;
+	overflow: hidden;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 2rem;
+	margin: 10% 4rem 0 4rem;
+}
+
+.last {
+	padding-bottom: 2rem;
+	border-bottom: 2px solid rgb(220, 200, 180);
 }
