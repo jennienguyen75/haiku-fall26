@@ -27,6 +27,5 @@ function randomize() {
 
 // add click event listener to .bad div
 divs.addEventListener("click", function () {
-    divs.classList.add("active");
     randomize();
 });
