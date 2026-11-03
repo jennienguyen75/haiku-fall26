@@ -7,24 +7,72 @@ html {
 
 body {
 	margin: 1rem;
-	background-color: black;
-	background-image: url(../img/flames\ .gif);
+	background-color: whitesmoke;
+	background-image: url(../img/tap-tap-work.gif);
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	color: whitesmoke;
-	font-size: 5rem;
+	background-position: right bottom;
+	font-size: 3rem;
 	overflow: hidden;
 }
 
 .grid-container {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	text-align: center;
 	gap: 2rem;
 	margin: 10% 4rem 0 4rem;
 }
 
-.last {
-	padding-bottom: 2rem;
-	border-bottom: 2px solid rgb(220, 200, 180);
+div {
+	transition-property: transform;
+	transition-duration: .5s;
 }
+.normal {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	color: black;
+}
+
+.normal:hover {
+	color:skyblue;
+	transform: scale(.75);
+	font-weight: thin;
+
+}
+
+.bad {
+	font-family: 'Redaction 70', cursive;
+		color: black;
+	font-size: 5rem;
+    transition: transform .5s, scale .5s;
+}
+
+.bad:hover {
+    color: red;
+    text-shadow: 0 0 15px rgb(255, 111, 0);
+    scale: 1.5;
+    font-weight: bold;
+}
+
+.bad:active {
+	color: red;
+	text-shadow: 0 0 15px rgb(255, 111, 0);
+	font-weight: bold;
+}
+
+.bad:active {
+	color: red;
+	text-shadow: 0 0 15px rgb(255, 111, 0);
+	transform: scale(.5);
+	font-weight: bold;
+}
+
+/* added style for basic animations and class red-glow to text
+.red-glow {
+	transition: all .5s;
+}
+
+.red-glow:hover {
+	color: red;
+	transform: scale(1.5) rotate(45deg);
+	text-shadow: 0 0 15px red;
+}
+*/
