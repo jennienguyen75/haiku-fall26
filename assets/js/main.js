@@ -16,8 +16,8 @@
         let translateX = randomNumber(0, 1);
         let translateY = randomNumber(0, 1);
 
-        // 5% of the time ...
-        if (Math.random() > .95) {
+        // 1% of the time ...
+        if (Math.random() > .99) {
             scale = 1;
             rotate = 0;
             translateX = randomNumber(0, 1);
