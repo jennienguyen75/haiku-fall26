@@ -51,28 +51,3 @@ div {
     scale: 1.5;
     font-weight: bold;
 }
-
-.bad:active {
-	color: red;
-	text-shadow: 0 0 15px rgb(255, 111, 0);
-	font-weight: bold;
-}
-
-.bad:active {
-	color: red;
-	text-shadow: 0 0 15px rgb(255, 111, 0);
-	transform: scale(.5);
-	font-weight: bold;
-}
-
-/* added style for basic animations and class red-glow to text
-.red-glow {
-	transition: all .5s;
-}
-
-.red-glow:hover {
-	color: red;
-	transform: scale(1.5) rotate(45deg);
-	text-shadow: 0 0 15px red;
-}
-*/
